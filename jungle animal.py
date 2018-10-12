@@ -12,14 +12,14 @@
 # Define a procedure, jungle_animal, that takes as input a string and a number, an animal and your speed (in km/h), and prints out what to do.
 
 def jungle_animal(animal, my_speed):
-	if animal=='cheetah':
+	if animal == 'cheetah':
 		if my_speed > 115:
 			print("Run!")
 		else:
 			print("Stay calm and wait!")
-	elif animal=='gorilla':
+	elif animal == 'gorilla':
 		print("Introduce yourself!")
-	elif animal=="zebra":
+	elif animal == "zebra":
 		print("Try to ride a zebra!")
 
 jungle_animal('cheetah', 30)

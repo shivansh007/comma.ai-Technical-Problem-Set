@@ -9,17 +9,14 @@
 
 
 def daysBetweenDates(year1, month1, day1, year2, month2, day2):
-    ##
-    # Your code here.
-    ##
-    leap=(int)(year2-year1) / 4
-    if (month1>2) or (day1==29 and month1==2) :
-      if(year1%4==0):
-        if(year1%100==0 and year1%400!=0):
-          leap=0
+    leap=(int)(year2 - year1) / 4
+    if (month1 > 2) or (day1 == 29 and month1 == 2) :
+      if(year1%4 == 0):
+        if(year1%100 == 0 and year1%400 != 0):
+          leap = 0
         else:
-          leap+=1
-    if (month2>2) or (day2==29 and month2==2) :
+          leap += 1
+    if (month2 > 2) or (day2 == 29 and month2 == 2) :
       if(year2%4==0):
         if(year2%100==0 and year2%400!=0):
           leap=0
